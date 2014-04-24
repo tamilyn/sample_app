@@ -3,14 +3,15 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'sqlite3'
 gem 'pg'
+gem 'capybara'
 
-#group :development, :test do
-#  gem "rspec-rails", ">= 2.0.1"
-#end
-
-group :development do
-  gem 'rspec-rails', '~> 2.0.0.beta.18'
+group :development, :test do
+  gem "rspec-rails", ">= 2.7.0"
 end
+
+#group :development do
+#  gem 'rspec-rails', '~> 2.0.0.beta.18'
+#end
 
 #group :test do
 #  gem 'rspec-rails', '~> 2.0.0.beta.18'
