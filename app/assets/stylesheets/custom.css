@@ -1,0 +1,16 @@
+
+body { 
+	background: #cff;
+}
+.container {
+	width: 710px;
+}
+
+
+header { 
+	padding-top: 20px;
+}
+header img { 
+	padding: 1em;
+	background: white;
+}
