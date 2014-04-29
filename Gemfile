@@ -7,6 +7,7 @@ gem 'capybara'
 
 group :development, :test do
   gem "rspec-rails", ">= 2.7.0"
+  gem 'annotate'
 end
 
 #group :development do
