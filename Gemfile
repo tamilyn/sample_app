@@ -4,10 +4,15 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 gem 'pg'
 gem 'capybara'
+gem 'gravatar', '~> 1.0'
 
 group :development, :test do
   gem "rspec-rails", ">= 2.7.0"
   gem 'annotate'
+end
+
+group :test do
+  gem "factory_girl_rails", "4.1.0"
 end
 
 #group :development do
